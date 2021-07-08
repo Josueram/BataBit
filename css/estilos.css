@@ -128,8 +128,7 @@ main {
 }
 .main-tables-container {
     display: flex;
-    gap: 50px;
-    margin: 0 50px;
+    margin: 0 auto;
     height: 316px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
@@ -138,10 +137,10 @@ main {
 .main-currency-table {
     scroll-snap-align: center;
     width: 70%;
+    margin: 0 40px 0;
     min-width: 235px;
     max-width: 500px;
     height: 280px;
-    margin: 0 auto;
     font-family: "Inter", sans-serif;
 }
 .main-currency-table .currency-table--title {
@@ -224,11 +223,12 @@ main {
     color: var(--warm-black);
 }
 .main-commission-table {
+    scroll-snap-align: center;
     width: 70%;
+    margin: 0 40px 0;
     min-width: 235px;
     max-width: 500px;
     height: 280px;
-    margin: 0 auto;
     font-family: "Inter", sans-serif;
 }
 .main-commission-table .commission-table--title {
@@ -418,7 +418,6 @@ main {
 }
 .plans-container--slider {
     display: flex;
-    gap: 20px;
     height: 316px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
@@ -431,7 +430,7 @@ main {
     min-width: 200px;
     max-width: 300px;
     height: 247px;
-    margin: 50px auto 0;
+    margin: 50px 30px 0;
     padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 8px;
