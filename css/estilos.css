@@ -92,7 +92,7 @@ main {
     width: 100%;
     height: auto;
     padding-top: 80px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     text-align: center;
 }
 .main-exchange-container--title {
@@ -126,7 +126,16 @@ main {
     line-height: 1.8rem;
     color: #757575;
 }
+.main-tables-container {
+    display: flex;
+    margin: 0 42px;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
 .main-currency-table {
+    scroll-snap-align: center;
     width: 70%;
     min-width: 235px;
     max-width: 500px;
@@ -391,7 +400,6 @@ main {
     min-width: 288px;
     height: auto;
     margin: 0 auto;
-    margin-bottom: 50px;
 }
 .plans--title h2 {
     padding-top: 50px;
@@ -407,8 +415,17 @@ main {
     line-height: 1.8rem;
     color: #757575;
 }
+.plans-container--slider {
+    display: flex;
+    gap: 20px;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
 .plans-container--card {
     position: relative;
+    scroll-snap-align: center;
     width: 60%;
     min-width: 200px;
     max-width: 300px;
