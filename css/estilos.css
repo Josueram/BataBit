@@ -128,7 +128,8 @@ main {
 }
 .main-tables-container {
     display: flex;
-    margin: 0 42px;
+    gap: 50px;
+    margin: 0 50px;
     height: 316px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
